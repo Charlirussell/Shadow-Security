@@ -1,2 +1,6 @@
 @use 'reset';
 @use '/src/styles/variables' as v;
+
+body {
+  background-color: v.$background;
+}

@@ -9,7 +9,6 @@ function App() {
 
   return (
     <>
-      Shadow Security
         <div>
           <Header />
           <Navbar />
