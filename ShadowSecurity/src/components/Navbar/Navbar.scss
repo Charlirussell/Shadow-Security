@@ -1,0 +1,50 @@
+@use '../../styles/variables' as v;
+
+.navbar {
+  padding: 0.5em;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown {
+  display: none; 
+  
+  .dropdown-icon {
+    font-size: 3.5em; 
+    color: v.$buttons;
+    position: fixed;
+    top: 0.6em;
+    right: 0.5em;
+  }
+  
+  &.show-menu {
+    .dropdown-menu {
+      display: block;
+    }
+  }
+}
+
+.dropdown-menu {
+  display: none;
+  list-style: none;
+  position: relative;
+  right: auto;
+
+  li {
+    padding: 0.5em;
+    font-size: 1.2em;
+    color: v.$buttons;
+    position: relative;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdown {
+    display: block;
+    position: absolute;
+    right: 1.8em;
+    text-align: right;
+  }
+}
