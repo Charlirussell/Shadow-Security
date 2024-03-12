@@ -1,6 +1,26 @@
 @use 'reset';
 @use '/src/styles/variables' as v;
 
+/* Titillium Web 400 */
+@font-face {
+  font-display: swap;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/src/assets/fonts/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+/* Titillium Web 700 */
+@font-face {
+  font-display: swap;
+  font-family: 'Titillium Web Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/src/assets/fonts/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+
+
 body {
   background-color: v.$background;
 }

@@ -1,0 +1,16 @@
+@use '../../styles/variables' as v;
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: v.$buttons
+}
+
+.terms{
+  display: block;
+}
+.social {
+  display: flex;
+  align-items: flex-end;
+}
