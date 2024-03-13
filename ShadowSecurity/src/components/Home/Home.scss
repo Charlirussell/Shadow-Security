@@ -1,0 +1,45 @@
+@use '../../styles/variables' as v;
+
+.home {
+  position: relative;
+  top: 5em;
+}
+
+.h1p {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.boxone, .boxtwo, .boxthree, .boxfour {
+  border: solid v.$greyblack 0.1em;
+  margin: 4em;
+  padding: 1.2em;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-image: linear-gradient( v.$darkpurple, v.$darkblue);
+  
+}
+
+.boxone, .boxthree {
+  right: 2em;
+}
+
+.boxtwo, .boxfour {
+  left: 2em;
+}
+
+.h2boxleft {
+  text-align: left;
+}
+
+.pboxleft {
+  text-align: right;
+}
+
+.h2boxright {
+  text-align: right;
+}
+
+.pboxright {
+  text-align: left;
+}

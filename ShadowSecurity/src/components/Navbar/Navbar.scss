@@ -59,5 +59,10 @@
     position: absolute;
     right: 1.8em;
     text-align: right;
+    background-color: v.$background;
+    z-index: 1000;
+  }
+  .dropdown-icon {
+    padding-right: 0.5em;
   }
 }
